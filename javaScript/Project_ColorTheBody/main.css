@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.centered-div {
+    height: auto;
+    width: 40%;
+    padding: 10%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+span {
+    height: 35%;
+    width: 100%;
+    border: 2px solid black; /* Set your preferred border style */
+    padding: 40px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: grey;
+}
