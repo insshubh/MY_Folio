@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:  #fea49f; /* Set a background color for the body */
+}
+
+.centered-div {
+  width: 30em;
+  height: 40em;
+  text-align: center;
+  background-color: #f6cedc;
+  color: rgb(181, 13, 13);
+  font-size: medium;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.centered-div iframe {
+  max-width: 90%;
+  height: 30em;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.centered-div .btn {
+  background-color: rgb(249, 245, 245);
+  color: royalblue;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid rgb(246, 58, 11);
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
