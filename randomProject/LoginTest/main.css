@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('/LoginTest/DSC_0023.jpg') no-repeat center 20% fixed;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8); /* rgba with alpha for transparency */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    background: transparent;
+    border: solid 3px seashell;
+}
+
+.login-box h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: #f6f4f4;
+    background: transparent;
+    border: dotted 1px aliceblue;
+}
+
+form {
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #eed2d2;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 3px silver;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+button:hover {
+    background-color: #283e29;
+}
